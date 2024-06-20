@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.galeria{
+    width: 40%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img{
+    margin-top: 50px;
+    width: 160px;
+    height: 140px;
+    border-radius: 7px;}
+.galeria img:hover{
+    text-shadow: #000;
+    transform: scale(1.03);
+    cursor: pointer;  
+}
